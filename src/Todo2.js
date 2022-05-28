@@ -84,7 +84,7 @@ const Todo2 = () => {
                 onChange={(e) => setEditingText(e.target.value)}
               />
             ) : (
-              // <div>{todo.text}</div>
+              <div>{todo.text}</div>
             )}
           </div>
           <div className="todo-actions">
